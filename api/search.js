@@ -1,5 +1,5 @@
 
-import schoolData from "../data/school.json";
+import schoolData from "../data/school.json" with { type: "json" };
 
 export function searchSchoolData(question) {
   // 質問を検索しやすい形にする
